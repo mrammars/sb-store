@@ -1,6 +1,6 @@
 module.exports = {
     mode: "jit",
-    purge: ["index.html"],
+    purge: ["index.html", "store.html"],
     darkMode: false,
     theme: {
         extend: {
@@ -30,5 +30,6 @@ module.exports = {
     plugins: [
         require('@tailwindcss/forms'),
         require('@tailwindcss/line-clamp'),
+        require('@tailwindcss/aspect-ratio'),
     ],
 }
